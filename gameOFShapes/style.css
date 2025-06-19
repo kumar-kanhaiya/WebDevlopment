@@ -12,10 +12,12 @@ body{
     display: flex;
     height: 100%;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.box{
+.box1, .box2 , .box3{
     height: 200px;
     width: 200px;
     background-color: rgb(233, 228, 228);
@@ -23,3 +25,19 @@ body{
     margin: 15px;
 }
 
+.box2{
+    border-radius: 50%;
+
+}
+.box2:hover{
+    background-color: purple;
+    transition-duration: 2s;
+}
+.box1:hover{
+    background-color: violet;
+    transition-duration: 2.5s;
+}
+.box3:hover{
+    background-color: blue;
+    transition-duration: 2.5s;
+}
