@@ -44,3 +44,6 @@ body{
     background-color: blue;
     transition-duration: 2.5s;
 }
+.box3{
+    rotate: 45deg;
+}
