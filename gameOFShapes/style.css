@@ -46,6 +46,7 @@ body{
 }
 .box3{
     rotate: 45deg;
+    margin-left: 40px;
 }
 .box3 h2{
     rotate: -45deg;
