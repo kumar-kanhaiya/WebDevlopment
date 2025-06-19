@@ -38,6 +38,7 @@ body{
     
 }
 #card4{
+    /* yaai ham is liyai kar rhe hai kyuki center kai about fix karkai fir rotate use kar rhe hai  */
     transform: translate(-50% , -50%) rotate(-15deg);
     
 
