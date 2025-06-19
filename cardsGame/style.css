@@ -26,5 +26,17 @@ body{
     width: 240px;
     border: 1px solid salmon ;
     border-radius: 25px;
+    z-index: -1;
+
+}
+#card2{
+    rotate: -8deg;
+}
+#card3{
+    rotate : -16deg;
+    
+}
+#card4{
+    rotate: -24deg;
 
 }
