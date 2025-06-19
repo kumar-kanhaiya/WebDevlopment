@@ -21,6 +21,7 @@ nav{
 nav ul{
     display: flex;
     gap: 50px;
+    font-size: 25px;
     margin-top: 30px;
     justify-content: left
     
@@ -52,4 +53,43 @@ a{
 }
 .navbar{
     display: fixed;
+}
+.line{
+    border: 2px solid black;
+    height: 50px;
+    /* margin: 5px 15px; */
+    /* border-radius: 25px; */
+    background-color: rgb(74, 74, 247);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+
+}
+.line a{
+    color: rgb(212, 205, 205);
+}
+.content{
+    height: 500px;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.con{
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+.con h1{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.con button{
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(36, 68, 248);
+    color: white;
 }
