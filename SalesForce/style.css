@@ -74,6 +74,7 @@ a{
     height: 500px;
     width: 100%;
     margin-top: 25px;
+    display: flex;
     /* border: 2px solid black; */
 }
 .con{
