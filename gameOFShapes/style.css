@@ -47,3 +47,6 @@ body{
 .box3{
     rotate: 45deg;
 }
+.box3 h2{
+    rotate: -45deg;
+}
