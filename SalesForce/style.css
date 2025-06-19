@@ -52,7 +52,7 @@ a{
     color: white;
 }
 .navbar{
-    display: fixed;
+    /* position:fixed; */
 }
 .line{
     border: 2px solid black;
@@ -98,7 +98,7 @@ a{
     color: white;
 }
 .main{
-    display: flex;
+    /* display: flex; */
     margin-left: 15%;
     margin-right: 15%;
     justify-content: center;
@@ -112,5 +112,15 @@ a{
 }
 
 .box{
-    
+    height: 300px;
+    border: 2px solid black;
+    width: 400px;
+    gap: 50px;
+}
+.container{
+    display: flex;
+    gap: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
 }
