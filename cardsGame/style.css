@@ -60,6 +60,7 @@ img{
     transform: translate(-50% , -50%) rotate(-15deg);
     background-color: blue;
 }
+
 #card2:hover{
     z-index: 12;
 }
