@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    display: flex;
+    gap: 80px;
+}
+.image{
+    margin-top: 20px;
+    margin-left: 35px;
+    height: 30px;
+    
+}
+
+
+nav ul{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+    justify-content: left
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+
+}
+a{
+    text-decoration: none;
+}
+.right{
+    display: flex;
+    justify-content: right;
+    margin-top: -25px;
+    gap: 25px;
+    margin-right: 25px;
+}
+.try{
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    background-color: green;
+}
+.try a{
+    color: white;
+}
+.navbar{
+    display: fixed;
+}
