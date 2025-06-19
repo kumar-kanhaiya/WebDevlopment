@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(233, 228, 228);
+    border: 2px solid black;
+    margin: 15px;
+}
+
