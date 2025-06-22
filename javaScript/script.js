@@ -34,5 +34,15 @@ console.log(student)
 // operators in Js 
 // used to perform some operation on data 
 // Arithmetic operators +,-,*,/,%
-console.log(5+9)
-
+// increment a++ , decrement a-- 
+// it is also known as unary operator 
+// console.log(5%9)
+let a = 5 ;
+let b = 2 ;
+console.log("a =" , a , "& b =",b)
+// increment 
+a++;
+console.log("now a =",a)
+// decrement 
+b--;
+console.log("after decrement b =",b)
