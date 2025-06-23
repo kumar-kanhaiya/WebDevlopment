@@ -65,3 +65,4 @@ if(mode === "light"){
     color = "white";
 }
 console.log(color);
+// if else if leader 
