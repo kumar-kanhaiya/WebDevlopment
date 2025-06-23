@@ -76,3 +76,4 @@ console.log(color);
 // else{
 //     code
 // }
+// for example 
