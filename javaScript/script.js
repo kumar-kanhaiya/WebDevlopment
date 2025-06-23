@@ -46,3 +46,22 @@ console.log("now a =",a)
 // decrement 
 b--;
 console.log("after decrement b =",b)
+
+// conditional statement 
+// let age = 25;
+// if(age>18){
+//     console.log("You can drive ")
+// }
+// else{
+//     console.log("You cant go ")
+// }
+
+let mode = "light"
+let color;
+if(mode === "dark"){
+    color = "black"
+}
+if(mode === "light"){
+    color = "white";
+}
+console.log(color);
