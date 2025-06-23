@@ -77,3 +77,15 @@ console.log(color);
 //     code
 // }
 // for example 
+let mod = "dark"
+let col;
+if(mod === "dark"){
+    col = "dark"
+}
+else if(mod == "white"){
+    col = "white"
+}
+else{
+    col = "not defined"
+}
+console.log(col)
