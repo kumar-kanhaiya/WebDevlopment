@@ -66,3 +66,13 @@ if(mode === "light"){
 }
 console.log(color);
 // if else if leader 
+// syntex 
+// if(condition){
+//     // code
+// }
+// else if (condition){
+//     //code
+// }
+// else{
+//     code
+// }
