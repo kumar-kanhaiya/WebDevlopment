@@ -80,7 +80,7 @@ console.log(color);
 let mod = "dark"
 let col;
 if(mod === "dark"){
-    col = "dark"
+    col = "black"
 }
 else if(mod == "white"){
     col = "white"
