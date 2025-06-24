@@ -89,4 +89,4 @@ else{
     col = "not defined"
 }
 console.log(col)
-if(mod === "dark") console.log("dark")
+if(mod === "dark") console.log("dark");
