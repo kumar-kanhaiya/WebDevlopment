@@ -87,6 +87,7 @@ else if(mod == "white"){
 }
 else{
     col = "not defined"
+    
 }
 console.log(col)
 if(mod === "dark") console.log("dark");
