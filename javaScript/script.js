@@ -93,10 +93,27 @@
 // if(mod === "dark") console.log("dark");
 
 // question - 1
-let number = prompt("Enter your number ");
-if(number%5 == 0){
-    console.log("Yes multiple of 5")
+// let number = prompt("Enter your number ");
+// if(number%5 === 0){
+//     console.log(number ,"Yes multiple of 5")
+// }
+// else{
+//     console.log(number ,"Not a multiple of 5")
+// }
+// second question 
+let score = prompt("Enter your total Marks")
+if(score>=80 && score<=100){
+    console.log("A");
+}
+else if(score>=70 && score<80){
+    console.log("B");
+}
+else if(score>=60 && score<70){
+    console.log("C");
+}
+else if(score>=50 && score<60){
+    console.log("D");
 }
 else{
-    console.log("Not a multiple of 5")
+    console.log("Fail")
 }
