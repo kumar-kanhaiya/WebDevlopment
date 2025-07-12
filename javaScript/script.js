@@ -119,3 +119,29 @@
 // }
 
 // let us start loops and strings 
+
+ for(let i = 0 ; i<5 ; i++){
+    console.log("value of i " , i);
+ }
+
+ // for of loops and for in loops 
+// for of loop used in string and array 
+// syntex 
+// for(let variable of strval){
+//     // code
+// }
+
+let str = "kanhaiya kumar"
+for(let i of str){ // same as for each 
+    console.log( "i = ", i)
+}
+// for in used for arrays and object 
+
+let student = {
+    name : "kanhaiya",
+    age: 20,
+    cgpa: 8.5
+};
+for (let key in student){
+    console.log(student[key])
+}
