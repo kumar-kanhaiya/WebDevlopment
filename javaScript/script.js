@@ -101,19 +101,21 @@
 //     console.log(number ,"Not a multiple of 5")
 // }
 // second question 
-let score = prompt("Enter your total Marks")
-if(score>=80 && score<=100){
-    console.log("A");
-}
-else if(score>=70 && score<80){
-    console.log("B");
-}
-else if(score>=60 && score<70){
-    console.log("C");
-}
-else if(score>=50 && score<60){
-    console.log("D");
-}
-else{
-    console.log("Fail")
-}
+// let score = prompt("Enter your total Marks")
+// if(score>=80 && score<=100){
+//     console.log("A");
+// }
+// else if(score>=70 && score<80){
+//     console.log("B");
+// }
+// else if(score>=60 && score<70){
+//     console.log("C");
+// }
+// else if(score>=50 && score<60){
+//     console.log("D");
+// }
+// else{
+//     console.log("Fail")
+// }
+
+// let us start loops and strings 
