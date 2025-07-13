@@ -166,26 +166,35 @@
 // console.log("congratulations , you win ")
 
 // strings
-let str = "kanhaiya kumar "
-console.log(str.length)
-// inbuild properties and inbuild functions
-// str[index] -- access the character just like array 
-console.log(str[5]) 
+// let str = "kanhaiya kumar "
+// console.log(str.length)
+// // inbuild properties and inbuild functions
+// // str[index] -- access the character just like array 
+// console.log(str[5]) 
 
-// template literals
-let sentence = `this is a template literals `; // it is a special type of string 
-console.log(sentence);
-let output = `my name is ${str}`
-console.log(output)
+// // template literals
+// let sentence = `this is a template literals `; // it is a special type of string 
+// console.log(sentence);
+// let output = `my name is ${str}`
+// console.log(output)
 // place holder ${expression} 
 // string methods 
 /* str.toUpperCase()
 str.toLowerCase()
-str.trim() remove whitespaces
+str.trim() remove whitespaces from starting and ending
+ str.slice(start ,end) // where ending is exculded 
+ str1.concat(str) // ading two string
+ str.replace(searchVal , newval)
+ str.charAt(index)
 */
-str = str.toUpperCase();
-console.log(str)
-// string are immutable in js 
+// str = str.toUpperCase();
+// console.log(str)
+// string are immutable in js  
+// let str = prompt("Enter your name ");
+// let username = `@${str}${str.length}`
+// console.log(username)
+
+// let us start Arrays 
 
 
 
