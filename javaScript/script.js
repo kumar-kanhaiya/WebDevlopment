@@ -120,9 +120,9 @@
 
 // let us start loops and strings 
 
- for(let i = 0 ; i<5 ; i++){
-    console.log("value of i " , i);
- }
+//  for(let i = 0 ; i<5 ; i++){
+//     console.log("value of i " , i);
+//  }
 
  // for of loops and for in loops 
 // for of loop used in string and array 
@@ -148,8 +148,19 @@
 
 // question 1 
 // print all even numbers from 0 to 100 
-for(let i = 0 ; i<= 100 ; i++){
-    if(i%2 === 0){
-        console.log("i = " , i)
+// for(let i = 0 ; i<= 100 ; i++){
+//     if(i%2 === 0){
+//         console.log("i = " , i)
+//     }
+// }
+
+// second question 
+let gameNumber = 25;
+let userNumber = prompt("Guess the number : ")
+while(userNumber != gameNumber){
+    userNumber = prompt("Enter correct number : ")
+    if(userNumber == gameNumber){
+        break;
     }
 }
+console.log("congratulations , you win ")
