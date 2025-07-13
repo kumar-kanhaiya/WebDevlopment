@@ -131,17 +131,25 @@
 //     // code
 // }
 
-let str = "kanhaiya kumar"
-for(let i of str){ // same as for each 
-    console.log( "i = ", i)
-}
+// let str = "kanhaiya kumar"
+// for(let i of str){ // same as for each 
+//     console.log( "i = ", i)
+// }
 // for in used for arrays and object 
 
-let student = {
-    name : "kanhaiya",
-    age: 20,
-    cgpa: 8.5
-};
-for (let key in student){
-    console.log(student[key] )
+// let student = {
+//     name : "kanhaiya",
+//     age: 20,
+//     cgpa: 8.5
+// };
+// for (let key in student){
+//     console.log(student[key] )
+// }
+
+// question 1 
+// print all even numbers from 0 to 100 
+for(let i = 0 ; i<= 100 ; i++){
+    if(i%2 === 0){
+        console.log("i = " , i)
+    }
 }
