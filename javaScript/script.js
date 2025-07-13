@@ -164,3 +164,9 @@
 //     }
 // }
 // console.log("congratulations , you win ")
+
+// strings
+let str = "kanhaiya kumar "
+console.log(str.length)
+// inbuild properties and inbuild functions
+
