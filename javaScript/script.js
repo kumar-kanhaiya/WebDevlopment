@@ -155,12 +155,12 @@
 // }
 
 // second question 
-let gameNumber = 25;
-let userNumber = prompt("Guess the number : ")
-while(userNumber != gameNumber){
-    userNumber = prompt("Enter correct number : ")
-    if(userNumber == gameNumber){
-        break;
-    }
-}
-console.log("congratulations , you win ")
+// let gameNumber = 25;
+// let userNumber = prompt("Guess the number : ")
+// while(userNumber != gameNumber){
+//     userNumber = prompt("Enter correct number : ")
+//     if(userNumber == gameNumber){
+//         break;
+//     }
+// }
+// console.log("congratulations , you win ")
