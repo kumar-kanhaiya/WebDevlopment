@@ -143,5 +143,5 @@ let student = {
     cgpa: 8.5
 };
 for (let key in student){
-    console.log(student[key])
+    console.log(student[key] )
 }
