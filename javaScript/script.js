@@ -178,5 +178,14 @@ console.log(sentence);
 let output = `my name is ${str}`
 console.log(output)
 // place holder ${expression} 
+// string methods 
+/* str.toUpperCase()
+str.toLowerCase()
+str.trim() remove whitespaces
+*/
+str = str.toUpperCase();
+console.log(str)
+// string are immutable in js 
+
 
 
