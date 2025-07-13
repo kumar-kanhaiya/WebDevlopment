@@ -169,4 +169,14 @@
 let str = "kanhaiya kumar "
 console.log(str.length)
 // inbuild properties and inbuild functions
+// str[index] -- access the character just like array 
+console.log(str[5]) 
+
+// template literals
+let sentence = `this is a template literals `; // it is a special type of string 
+console.log(sentence);
+let output = `my name is ${str}`
+console.log(output)
+// place holder ${expression} 
+
 
