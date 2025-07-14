@@ -220,4 +220,12 @@ let average = sum/marks.length;
 console.log("Average of marks is : " +  average)
 
 // second practise problem 
+console.log("Before applying offer ")
+let arr = [250,645,300,900,50];
+console.log(arr)
+for(let i = 0 ; i<arr.length ; i++){
+    arr[i] = arr[i] - (arr[i]/10);
+}
+console.log("After applying offer ")
+console.log(arr)
 
