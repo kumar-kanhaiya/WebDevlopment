@@ -196,7 +196,28 @@ str.trim() remove whitespaces from starting and ending
 
 // let us start Arrays 
  
-let arr = [1,2,34,5,67,8,9,5,0]
-console.log(arr)
-// we can change the value of array by using index
+// let arr = [1,2,34,5,67,8,9,5,0]
+// console.log(arr)
+// // we can change the value of array by using index
+// // printing all element of array by using loops 
+// for(let i = 0 ; i <arr.length ; i++){
+//     console.log(arr[i]);
+    
+// }
+// console.log("by using for of method ")
+// // by using for of similar to for each 
+// for(let element of arr){
+//     console.log(element);
+// }
+
+// practise problem 
+let marks = [85,97,44,37,76,60];
+let sum = 0;
+for(let element of marks){
+    sum += element;
+}
+let average = sum/marks.length;
+console.log("Average of marks is : " +  average)
+
+// second practise problem 
 
