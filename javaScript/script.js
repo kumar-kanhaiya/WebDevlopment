@@ -228,5 +228,10 @@ for(let i = 0 ; i<arr.length ; i++){
 }
 console.log("After applying offer ")
 console.log(arr)
+// array methods
+/* push() to add something
+pop() to remove somthing
+toString() to convert array to string 
+*/
 
 
