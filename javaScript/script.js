@@ -196,5 +196,7 @@ str.trim() remove whitespaces from starting and ending
 
 // let us start Arrays 
  
-
+let arr = [1,2,34,5,67,8,9,5,0]
+console.log(arr)
+// we can change the value of array by using index
 
