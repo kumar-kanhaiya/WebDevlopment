@@ -232,6 +232,13 @@ console.log(arr)
 /* push() to add something
 pop() to remove somthing
 toString() to convert array to string 
+conact() joins multiple array and return result
+unshift() add to start 
+shift() delte from start & return 
+slice() give starting and ending index 
+
 */
+
+// let us start functions 
 
 
