@@ -211,23 +211,23 @@ str.trim() remove whitespaces from starting and ending
 // }
 
 // practise problem 
-let marks = [85,97,44,37,76,60];
-let sum = 0;
-for(let element of marks){
-    sum += element;
-}
-let average = sum/marks.length;
-console.log("Average of marks is : " +  average)
+// let marks = [85,97,44,37,76,60];
+// let sum = 0;
+// for(let element of marks){
+//     sum += element;
+// }
+// let average = sum/marks.length;
+// console.log("Average of marks is : " +  average)
 
-// second practise problem 
-console.log("Before applying offer ")
-let arr = [250,645,300,900,50];
-console.log(arr)
-for(let i = 0 ; i<arr.length ; i++){
-    arr[i] = arr[i] - (arr[i]/10);
-}
-console.log("After applying offer ")
-console.log(arr)
+// // second practise problem 
+// console.log("Before applying offer ")
+// let arr = [250,645,300,900,50];
+// console.log(arr)
+// for(let i = 0 ; i<arr.length ; i++){
+//     arr[i] = arr[i] - (arr[i]/10);
+// }
+// console.log("After applying offer ")
+// console.log(arr)
 // array methods
 /* push() to add something
 pop() to remove somthing
@@ -241,4 +241,20 @@ slice() give starting and ending index
 
 // let us start functions 
 
+// syntex
+function printingName(){
+    console.log("kanhaiya kumar ")
+    
+}
+printingName();
+function myFun(msg){ // parameter passing message 
+    console.log(msg);
+}
+let name = "kanhaiya kumar "
+myFun(name); // argument 
 
+// arrow functions
+// sum function 
+function sum(a,b){
+    return a+b;
+}
