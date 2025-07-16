@@ -258,3 +258,11 @@ myFun(name); // argument
 function sum(a,b){
     return a+b;
 }
+const sum2 = (a,b) =>{
+    return a + b;
+}
+// arrow function of multiplication 
+const multiply = (a,b) =>{
+    return a*b;
+}
+
