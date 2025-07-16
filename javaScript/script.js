@@ -266,3 +266,35 @@ const multiply = (a,b) =>{
     return a*b;
 }
 
+// let us solve some practise question 
+function noOfVowels(str){
+    let count = 0;
+    let i = 0;
+    while(i < str.length){
+        
+        ch = str.charAt(i);
+        if(ch === 'a' || ch === 'e' || ch === 'i' || 
+            ch === 'o' || ch=== 'u' ){
+            count++;
+        }
+        i++;
+    }
+    return count;
+}
+const ans =  (str)=>{
+    let count = 0;
+    let i = 0;
+    while(i < str.length){
+        
+        ch = str.charAt(i);
+        if(ch === 'a' || ch === 'e' || ch === 'i' || 
+            ch === 'o' || ch=== 'u'
+        ){
+            count++;
+        }
+        i++;
+    }
+    return count;
+}
+
+console.log(noOfVowels("kanhaiya"))
