@@ -241,63 +241,63 @@ slice() give starting and ending index
 
 // let us start functions 
 
-// syntex
-function printingName(){
-    console.log("kanhaiya kumar ")
+// // syntex
+// function printingName(){
+//     console.log("kanhaiya kumar ")
     
-}
-printingName();
-function myFun(msg){ // parameter passing message 
-    console.log(msg);
-}
-let name = "kanhaiya kumar "
-myFun(name); // argument 
+// }
+// printingName();
+// function myFun(msg){ // parameter passing message 
+//     console.log(msg);
+// }
+// let name = "kanhaiya kumar "
+// myFun(name); // argument 
 
-// arrow functions
-// sum function 
-function sum(a,b){
-    return a+b;
-}
-const sum2 = (a,b) =>{
-    return a + b;
-}
-// arrow function of multiplication 
-const multiply = (a,b) =>{
-    return a*b;
-}
+// // arrow functions
+// // sum function 
+// function sum(a,b){
+//     return a+b;
+// }
+// const sum2 = (a,b) =>{
+//     return a + b;
+// }
+// // arrow function of multiplication 
+// const multiply = (a,b) =>{
+//     return a*b;
+// }
 
-// let us solve some practise question 
-function noOfVowels(str){
-    let count = 0;
-    let i = 0;
-    while(i < str.length){
+// // let us solve some practise question 
+// function noOfVowels(str){
+//     let count = 0;
+//     let i = 0;
+//     while(i < str.length){
         
-        ch = str.charAt(i);
-        if(ch === 'a' || ch === 'e' || ch === 'i' || 
-            ch === 'o' || ch=== 'u' ){
-            count++;
-        }
-        i++;
-    }
-    return count;
-}
-const ans =  (str)=>{
-    let count = 0;
-    let i = 0;
-    while(i < str.length){
+//         ch = str.charAt(i);
+//         if(ch === 'a' || ch === 'e' || ch === 'i' || 
+//             ch === 'o' || ch=== 'u' ){
+//             count++;
+//         }
+//         i++;
+//     }
+//     return count;
+// }
+// const ans =  (str)=>{
+//     let count = 0;
+//     let i = 0;
+//     while(i < str.length){
         
-        ch = str.charAt(i);
-        if(ch === 'a' || ch === 'e' || ch === 'i' || 
-            ch === 'o' || ch=== 'u'
-        ){
-            count++;
-        }
-        i++;
-    }
-    return count;
-}
+//         ch = str.charAt(i);
+//         if(ch === 'a' || ch === 'e' || ch === 'i' || 
+//             ch === 'o' || ch=== 'u'
+//         ){
+//             count++;
+//         }
+//         i++;
+//     }
+//     return count;
+// }
 
-console.log(noOfVowels("kanhaiya"))
+// console.log(noOfVowels("kanhaiya"))
 
 // for each loop in array 
 let array = [4,5,6,8,5,9,6,2]
@@ -305,21 +305,47 @@ let array = [4,5,6,8,5,9,6,2]
 // for(let element in array ){
 //     console.log(element)
 // }
-array.forEach(function printvalue(val){
-    console.log(val)
+// array.forEach(function printvalue(val){
+//     console.log(val)
+// })
+// console.log("new printing")
+
+// array.forEach(myFun)
+
+// // third
+// array.forEach((val) =>{
+//     console.log(val+2)
+// })
+
+// console.log("Printing square of given array ")
+
+// array.forEach((val) =>{
+//     console.log(`square of ${val} is ${val*val}`)
+// })
+/* some array methods
+map method 
+ cretate a new array with the results of some operatiopn.
+ The value its callback returns are used to form new array 
+ arr.map(vallbackfnx(value,index,array)}
+
+ - same as for each but it create a new array 
+
+ filter method 
+ creates a new array of element that give true for
+ a condition 
+ reduce
+ perform some operation & reduce the array to a single value 
+ it return that single value
+
+
+*/
+let nums= [12,15,17];
+let newArr = nums.map((val) =>{
+    return val;
 })
-console.log("new printing")
-
-array.forEach(myFun)
-
-// third
-array.forEach((val) =>{
-    console.log(val+2)
+console.log(newArr)
+ 
+const ans = nums.reduce((result , current ) => {
+    return result + current;
 })
-
-console.log("Printing square of given array ")
-
-array.forEach((val) =>{
-    console.log(`square of ${val} is ${val*val}`)
-})
-
+console.log(ans);
