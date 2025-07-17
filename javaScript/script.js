@@ -350,4 +350,27 @@ map method
 // })
 // console.log(ans);
 
- 
+// practise question 
+let arr = [50,4,0,85,95,60,80,100,99,98,97];
+const fi = arr.filter((val) =>{
+    if(val>90){
+        console.log(val);
+    }
+}) 
+
+// input the array ;
+let n = prompt("Enter the number of element ")
+let a = [];
+for(let i = 0 ; i<n ; i++){
+    let input = prompt("Enter value : ")
+    a[i] = input;
+}
+console.log(a);
+const add = a.reduce((result , current) =>{
+    return result + current;
+})
+console.log(add);
+const mult = a.reduce((result , current )=>{
+    return result*current;
+})
+console.log(mult);
