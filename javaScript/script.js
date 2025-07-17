@@ -349,3 +349,4 @@ const ans = nums.reduce((result , current ) => {
     return result + current;
 })
 console.log(ans);
+ 
