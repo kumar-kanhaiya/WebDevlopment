@@ -8,3 +8,6 @@ document.getElementByClassName("class name ")
 document.getElementByTagName("here is the tag name ")
 
 */
+document.getElementById("submit"){
+    document.getElementById("name").innerHTML = "kanhaiya singh";
+}
