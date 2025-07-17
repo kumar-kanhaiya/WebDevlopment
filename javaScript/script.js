@@ -312,3 +312,14 @@ console.log("new printing")
 
 array.forEach(myFun)
 
+// third
+array.forEach((val) =>{
+    console.log(val+2)
+})
+
+console.log("Printing square of given array ")
+
+array.forEach((val) =>{
+    console.log(`square of ${val} is ${val*val}`)
+})
+
