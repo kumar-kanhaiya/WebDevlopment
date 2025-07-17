@@ -339,14 +339,15 @@ map method
 
 
 */
-let nums= [12,15,17];
-let newArr = nums.map((val) =>{
-    return val;
-})
-console.log(newArr)
+// let nums= [12,15,17];
+// let newArr = nums.map((val) =>{
+//     return val;
+// })
+// console.log(newArr)
  
-const ans = nums.reduce((result , current ) => {
-    return result + current;
-})
-console.log(ans);
+// const ans = nums.reduce((result , current ) => {
+//     return result + current;
+// })
+// console.log(ans);
+
  
