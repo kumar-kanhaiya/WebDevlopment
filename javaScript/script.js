@@ -300,5 +300,15 @@ const ans =  (str)=>{
 console.log(noOfVowels("kanhaiya"))
 
 // for each loop in array 
+let array = [4,5,6,8,5,9,6,2]
 
+// for(let element in array ){
+//     console.log(element)
+// }
+array.forEach(function printvalue(val){
+    console.log(val)
+})
+console.log("new printing")
+
+array.forEach(myFun)
 
