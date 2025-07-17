@@ -298,3 +298,7 @@ const ans =  (str)=>{
 }
 
 console.log(noOfVowels("kanhaiya"))
+
+// for each loop in array 
+
+
