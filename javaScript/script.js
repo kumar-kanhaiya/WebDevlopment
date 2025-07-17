@@ -300,77 +300,79 @@ slice() give starting and ending index
 // console.log(noOfVowels("kanhaiya"))
 
 // for each loop in array 
-let array = [4,5,6,8,5,9,6,2]
+// let array = [4,5,6,8,5,9,6,2]
 
-// for(let element in array ){
-//     console.log(element)
-// }
-// array.forEach(function printvalue(val){
-//     console.log(val)
-// })
-// console.log("new printing")
+// // for(let element in array ){
+// //     console.log(element)
+// // }
+// // array.forEach(function printvalue(val){
+// //     console.log(val)
+// // })
+// // console.log("new printing")
 
-// array.forEach(myFun)
+// // array.forEach(myFun)
 
-// // third
-// array.forEach((val) =>{
-//     console.log(val+2)
-// })
+// // // third
+// // array.forEach((val) =>{
+// //     console.log(val+2)
+// // })
 
-// console.log("Printing square of given array ")
+// // console.log("Printing square of given array ")
 
-// array.forEach((val) =>{
-//     console.log(`square of ${val} is ${val*val}`)
-// })
-/* some array methods
-map method 
- cretate a new array with the results of some operatiopn.
- The value its callback returns are used to form new array 
- arr.map(vallbackfnx(value,index,array)}
+// // array.forEach((val) =>{
+// //     console.log(`square of ${val} is ${val*val}`)
+// // })
+// /* some array methods
+// map method 
+//  cretate a new array with the results of some operatiopn.
+//  The value its callback returns are used to form new array 
+//  arr.map(vallbackfnx(value,index,array)}
 
- - same as for each but it create a new array 
+//  - same as for each but it create a new array 
 
- filter method 
- creates a new array of element that give true for
- a condition 
- reduce
- perform some operation & reduce the array to a single value 
- it return that single value
+//  filter method 
+//  creates a new array of element that give true for
+//  a condition 
+//  reduce
+//  perform some operation & reduce the array to a single value 
+//  it return that single value
 
 
-*/
-// let nums= [12,15,17];
-// let newArr = nums.map((val) =>{
-//     return val;
-// })
-// console.log(newArr)
+// */
+// // let nums= [12,15,17];
+// // let newArr = nums.map((val) =>{
+// //     return val;
+// // })
+// // console.log(newArr)
  
-// const ans = nums.reduce((result , current ) => {
+// // const ans = nums.reduce((result , current ) => {
+// //     return result + current;
+// // })
+// // console.log(ans);
+
+// // practise question 
+// let arr = [50,4,0,85,95,60,80,100,99,98,97];
+// const fi = arr.filter((val) =>{
+//     if(val>90){
+//         console.log(val);
+//     }
+// }) 
+
+// // input the array ;
+// let n = prompt("Enter the number of element ")
+// let a = [];
+// for(let i = 0 ; i<n ; i++){
+//     let input = prompt("Enter value : ")
+//     a[i] = input;
+// }
+// console.log(a);
+// const add = a.reduce((result , current) =>{
 //     return result + current;
 // })
-// console.log(ans);
+// console.log(add);
+// const mult = a.reduce((result , current )=>{
+//     return result*current;
+// })
+// console.log(mult);
 
-// practise question 
-let arr = [50,4,0,85,95,60,80,100,99,98,97];
-const fi = arr.filter((val) =>{
-    if(val>90){
-        console.log(val);
-    }
-}) 
-
-// input the array ;
-let n = prompt("Enter the number of element ")
-let a = [];
-for(let i = 0 ; i<n ; i++){
-    let input = prompt("Enter value : ")
-    a[i] = input;
-}
-console.log(a);
-const add = a.reduce((result , current) =>{
-    return result + current;
-})
-console.log(add);
-const mult = a.reduce((result , current )=>{
-    return result*current;
-})
-console.log(mult);
+// starting DOM 
