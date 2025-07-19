@@ -8,9 +8,9 @@ document.getElementByClassName("class name ")
 document.getElementByTagName("here is the tag name ")
 
 */
-document.getElementById("submit") check=>{
-    document.getElementById("name").innerHTML = "kanhaiya singh";
-}
+// document.getElementById("submit") check=>{
+//     document.getElementById("name").innerHTML = "kanhaiya singh";
+// }
 
 // query selector 
 
@@ -28,3 +28,6 @@ innerHTML : return the plain text or html contents in the element
 textContent : return textual content even for hidden elements
 
 */
+let div = document.querySelector("h1");
+let button = document.querySelector("#Submit")
+butoon = div.innerText = "kanhaiya kumar ";
