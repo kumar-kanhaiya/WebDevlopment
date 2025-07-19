@@ -8,6 +8,23 @@ document.getElementByClassName("class name ")
 document.getElementByTagName("here is the tag name ")
 
 */
-document.getElementById("submit"){
+document.getElementById("submit") check=>{
     document.getElementById("name").innerHTML = "kanhaiya singh";
 }
+
+// query selector 
+
+/*
+document.querySelector("myId/myclass/tag")
+// return first element 
+document.querySelectorALl(my id / my class / tag)
+return a n
+
+/*
+properties 
+tagName = return tag for element nodes
+ineerText : return the text content of the element and all its childeren 
+innerHTML : return the plain text or html contents in the element 
+textContent : return textual content even for hidden elements
+
+*/
