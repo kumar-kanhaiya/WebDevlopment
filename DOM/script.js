@@ -80,3 +80,12 @@ affect code execution /
 . print event & many more
 */
 
+let but = document.querySelector("#btn1");
+// but.onclick = function fun(){
+// console.log("its ok ")
+// }
+let val = document.querySelector("p");
+
+but.onclick = ()=>{
+    val.innerText = "after changing by kanhaiya kumar "
+}
