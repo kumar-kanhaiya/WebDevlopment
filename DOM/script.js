@@ -84,26 +84,38 @@ let but = document.querySelector("#btn1");
 // but.onclick = function fun(){
 // console.log("its ok ")
 // }
-let val = document.querySelector("p");
+// let val = document.querySelector("p");
 
-but.onclick = ()=>{
-    val.innerText = "after changing by kanhaiya kumar "
-}
-// let docc = document.querySelector("div");
+// but.onclick = ()=>{
+//     val.innerText = "after changing by kanhaiya kumar "
+// }
+// let docc = document.querySelector("#box");
 
-// docc.onmouseover = () => {
-//     // doc.style.backgroundColor ="red"
-//     console.log("ok")
-// };
-document.addEventListener("onmouseover", ()=>{
-    let doc = document.getElementById("#box");
-    if(doc){
-        doc.onmouseover = ()=>{
-            doc.style.fontSize = "200px";
-        }
+// // docc.onmouseover = () => {
+// //     // doc.style.backgroundColor ="red"
+// //     console.log("ok")
+// // };
+// docc.addEventListener("onmouseover", ()=>{
+//     let doc = document.getElementById("#box");
+//     if(doc){
+//         doc.onmouseover = ()=>{
+//             doc.style.fontSize = "200px";
+//         }
 
+//     }
+//     else{
+//         console.warn("Element not found ")
+//     }
+// })
+document.addEventListener("click",()=>{
+    let val = document.getElementById("btn1");
+    let body = document.querySelector("body");
+    if(body.style.backgroundColor === "black"){
+        body.style.backgroundColor = "white";
+        body.style.color = "black";
     }
     else{
-        console.warn("Element not found ")
+        body.style.backgroundColor = "black";
+        body.style.color = "white";
     }
 })
