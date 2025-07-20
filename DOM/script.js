@@ -66,3 +66,17 @@ node.remove
 // para.style.backgroundColor = "red";
 // para.style.color = "white";
 // p.append(para);
+
+
+// Event in jS
+/*
+The changes in the state of an object is known as an event
+events are fired to notify code of "interseting changes " that may 
+affect code execution /
+
+. mouse event (click , double click etc .)
+. keyboard event (keypress , keyup , keydown )
+. form event (Submit etc.)
+. print event & many more
+*/
+
