@@ -89,3 +89,9 @@ let val = document.querySelector("p");
 but.onclick = ()=>{
     val.innerText = "after changing by kanhaiya kumar "
 }
+let docc = document.querySelector("div");
+
+docc.onmouseover = () => {
+    // doc.style.backgroundColor ="red"
+    console.log("ok")
+};
