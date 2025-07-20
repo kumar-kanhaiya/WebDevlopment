@@ -49,3 +49,20 @@ delete element
 node.remove
 
 */
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "click me ";
+// let div = document.querySelector("div");
+// div.append(newBtn)
+// first problem 
+// let btn = document.createElement("button");
+// let body = document.querySelector("body");
+// btn.innerText = "click me !"
+// btn.style.backgroundColor = "red";
+// btn.style.color = "White";
+
+// body.prepend(btn);
+// let p = document.querySelector(".main");
+// let para = document.createElement("p");
+// para.style.backgroundColor = "red";
+// para.style.color = "white";
+// p.append(para);

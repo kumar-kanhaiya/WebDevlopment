@@ -2,3 +2,15 @@ button{
     background-color: aqua;
     color: white;
 }
+.box{
+    height: 200px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+}
+
+.main{
+    color: white;
+    background-color: grey;
+    font-size: 50px;
+}
