@@ -89,9 +89,21 @@ let val = document.querySelector("p");
 but.onclick = ()=>{
     val.innerText = "after changing by kanhaiya kumar "
 }
-let docc = document.querySelector("div");
+// let docc = document.querySelector("div");
 
-docc.onmouseover = () => {
-    // doc.style.backgroundColor ="red"
-    console.log("ok")
-};
+// docc.onmouseover = () => {
+//     // doc.style.backgroundColor ="red"
+//     console.log("ok")
+// };
+document.addEventListener("onmouseover", ()=>{
+    let doc = document.getElementById("#box");
+    if(doc){
+        doc.onmouseover = ()=>{
+            doc.style.fontSize = "200px";
+        }
+
+    }
+    else{
+        console.warn("Element not found ")
+    }
+})
