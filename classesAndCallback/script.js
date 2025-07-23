@@ -150,3 +150,16 @@
 // })
 
 // // promise chain 
+function asynFunc(){
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            console.log("SOme data ");
+            resolve("Sucess!!")
+        },5000)
+    })
+}
+console.log("Fetching data 1")
+let p1 = asynFunc();
+p1.then((res)=>{
+    console.log(res)
+})
