@@ -76,3 +76,25 @@ setTimeout(()=>{
 console.log("three")
 console.log("four")
 // done without waiting 
+
+// callback 
+function sum(a,b){
+    console.log(a+b)
+}
+function calculator(a,b,sumCallback){
+    sumCallback(a,b);
+}
+calculator(1,2,sum);
+
+// data 1
+// data 2
+// data 3
+
+function getData(data){
+    setTimeout(()=>{
+        console.log("ID",data);
+    },2000);
+}
+getData(1)
+getData(2)
+getData(3)
