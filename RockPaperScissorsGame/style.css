@@ -60,4 +60,14 @@ button:hover{
     margin-left: auto;
     margin-right: auto;
 }
+.main{
+    height: 100vh;
+    width: 100vw;
+}
 
+@media (max-width: 600px){
+    .main{
+        height: 100vh;
+        width: 40vh;
+    }
+}
