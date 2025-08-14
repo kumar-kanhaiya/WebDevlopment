@@ -13,7 +13,9 @@
 // import ColorChange from "./ColorChange";
 // import UpdateState from "./updateState.jsx";
 // import ToDoList from "./ToDoList";
-import Com from "./com.jsx"
+// import Com from "./com.jsx"
+
+import DigitalClock from "./DigitalClock";
 function App() {
   // const fruits = [{name:"apple" , calories: 95},
   //                    {name:"orange", calories: 45},
@@ -32,8 +34,8 @@ function App() {
   return(
     <>
    
-     
-      <Com/>
+     <DigitalClock></DigitalClock>
+      
 
     {/* <Button></Button> */}
     

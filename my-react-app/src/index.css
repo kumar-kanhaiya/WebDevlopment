@@ -103,7 +103,7 @@
    padding: 5px;
    border-radius: 10px;
    border: 3px solid hsla(0, 0%, 0%, 0.61) ;
- } */
+ }
 
 
  .to-do-list{
@@ -166,4 +166,31 @@ li{
   flex-shrink: 1;
   flex-basis: 0%;
 
+} */
+
+body{
+   background-image: url(assets/image.webp);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   margin: 0;
+   display: flex;
+   min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.clock-container{
+    backdrop-filter: blur(500px);
+    width: 100vw;
+    padding: 10px 0px;
+}
+.clock{
+    color: white;
+    font-size: 7.2rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.692);
 }
