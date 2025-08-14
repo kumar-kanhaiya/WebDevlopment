@@ -7,8 +7,9 @@
 // import UserGreeting from "./UserGreeting";
 // import List from "./List";
 // import Button from "./Button";
-import MyComponent from "./MyComponent";
-import Counter from "./Counter";
+// import MyComponent from "./MyComponent";
+// import Counter from "./Counter";
+import Component from "./Component";
 function App() {
   // const fruits = [{name:"apple" , calories: 95},
   //                    {name:"orange", calories: 45},
@@ -27,7 +28,9 @@ function App() {
   return(
     <>
     {/* <MyComponent></MyComponent> */}
-    <Counter></Counter>
+    {/* <Counter></Counter> */}
+
+    <Component></Component>
 
     {/* <Button></Button> */}
     
