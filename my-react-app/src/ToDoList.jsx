@@ -26,10 +26,21 @@ function ToDoList(){
 
     }
     function moveTaskUp(index){
+        if(index > 0){
+            const updatedTask = [...tasks];
+            [updatedTask[index],updatedTask[index - 1]] = [updatedTask[index - 1] , updatedTask[index]]
+            setNewTask(updatedTask)
+        }
+
 
     }
     function moveTaskDown(index){
-
+            if(index < tasks.length - 1){
+            const updatedTask = [...tasks];
+            [updatedTask[index],updatedTask[index + 1]] = 
+            [updatedTask[index +1] , updatedTask[index]]
+            setNewTask(updatedTask)
+        }
     }
 
     return(
