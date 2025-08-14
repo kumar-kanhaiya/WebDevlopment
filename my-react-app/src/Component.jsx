@@ -4,6 +4,7 @@ function Component(){
 
     const [name,setName] = useState("Guest");
     const [quantity , setQuentity] = useState();
+    const [comment , setComment] = useState("");
 
     function handleNameChange(event){
         setName(event.target.value)
@@ -11,6 +12,10 @@ function Component(){
 
     function handeleQuantityChange(event){
         setQuentity(event.target.value);
+    }
+
+    function handeleCommentChange(event){
+        setComment(event.target.value)
     }
     return(
         <>
@@ -20,7 +25,11 @@ function Component(){
                 <p>Name : {name}</p>
                 <input type="number" value={quantity}
                 onChange={ handeleQuantityChange} />
-                <p>Name : {quantity}</p>
+                <p>Number : {quantity}</p>
+                <textarea value={comment} placeholder='enter text here'
+                type="text"
+                onChange={ handeleCommentChange} />
+                <p>Comment : {comment}</p>
             </div>
         </>
     )
