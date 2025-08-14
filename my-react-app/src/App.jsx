@@ -9,7 +9,8 @@
 // import Button from "./Button";
 // import MyComponent from "./MyComponent";
 // import Counter from "./Counter";
-import Component from "./Component";
+// import Component from "./Component";
+import ColorChange from "./ColorChange";
 function App() {
   // const fruits = [{name:"apple" , calories: 95},
   //                    {name:"orange", calories: 45},
@@ -30,7 +31,9 @@ function App() {
     {/* <MyComponent></MyComponent> */}
     {/* <Counter></Counter> */}
 
-    <Component></Component>
+    {/* <Component></Component>
+     */}
+     <ColorChange></ColorChange>
 
     {/* <Button></Button> */}
     
