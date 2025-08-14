@@ -106,4 +106,64 @@
  } */
 
 
- 
+ .to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+ }
+ h1{
+  font-size: 4rem;
+ }
+ button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0px 10px;
+  transition:  background-color 0.5 ease;
+ }
+
+ .add-button{
+  background-color: hsl(125, 47%, 54%);
+ }
+ .add-button:hover{
+  background-color: hsl(125, 47%, 44%);
+ }
+ .delete-button{
+  margin-left: 50px;
+  background-color: hsl(10, 90%, 40%);
+ }
+ .delete-button:hover{
+  background-color: hsl(10, 90%, 30%);
+ }
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+}
+ol{
+  padding: 0;
+
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: white;
+  margin-bottom: 15px;
+  border: 3px solid black ;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text{
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+
+}

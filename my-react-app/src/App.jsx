@@ -11,7 +11,8 @@
 // import Counter from "./Counter";
 // import Component from "./Component";
 // import ColorChange from "./ColorChange";
-import UpdateState from "./updateState.jsx";
+// import UpdateState from "./updateState.jsx";
+import ToDoList from "./ToDoList";
 function App() {
   // const fruits = [{name:"apple" , calories: 95},
   //                    {name:"orange", calories: 45},
@@ -31,7 +32,7 @@ function App() {
     <>
    
      
-      <UpdateState/>
+      <ToDoList/>
 
     {/* <Button></Button> */}
     
