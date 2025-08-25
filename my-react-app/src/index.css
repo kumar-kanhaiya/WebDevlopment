@@ -1,0 +1,196 @@
+/* .button{
+  background-color: rgb(117, 217, 250);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+
+ .list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0, 0%, 20%);
+  margin-bottom: 15px;
+  text-align: center;
+  border: 3px solid ;
+  border-radius: 5px;
+  background-color: hsl(185, 100%, 50%);
+ }
+
+ .list-items li{
+  font-size: 2em;
+  list-style: none;
+  color: hsl(0, 0%, 25%);
+  text-align: center;
+  margin: 0;
+ }
+ .list-items li:hover{
+    color: hsl(0, 0%, 45%);
+    cursor: pointer;
+ }
+
+ 
+ .counter-conatiner{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
+
+ .count-display{
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 50px;
+ }
+
+ .counter-button{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: skyblue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+ }
+.counter-button:hover{
+  background-color: black;
+  
+
+ }
+
+ .color-display{
+   height: 200px;
+   width: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid black;
+   border-radius: 15px;
+   transition: 0.25s ease;
+   
+
+ }
+ .container h1{
+   margin: 50px;
+   font-size: 3rem;
+
+ }
+ .container{
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+ .color-display p{
+   color: hsla(0, 0%, 0%, 0.377);
+   font-size: 2rem;
+   text-align: center;
+ }
+ label{
+   font-size: 1.5rem;
+   font-weight: bold;
+   margin-bottom: 10px;
+
+ }
+ input[type="color"]{
+   width: 75px;
+   height: 50px;
+   padding: 5px;
+   border-radius: 10px;
+   border: 3px solid hsla(0, 0%, 0%, 0.61) ;
+ }
+
+
+ .to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+ }
+ h1{
+  font-size: 4rem;
+ }
+ button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0px 10px;
+  transition:  background-color 0.5 ease;
+ }
+
+ .add-button{
+  background-color: hsl(125, 47%, 54%);
+ }
+ .add-button:hover{
+  background-color: hsl(125, 47%, 44%);
+ }
+ .delete-button{
+  margin-left: 50px;
+  background-color: hsl(10, 90%, 40%);
+ }
+ .delete-button:hover{
+  background-color: hsl(10, 90%, 30%);
+ }
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+}
+ol{
+  padding: 0;
+
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: white;
+  margin-bottom: 15px;
+  border: 3px solid black ;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text{
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+
+} */
+
+body{
+   background-image: url(assets/image.webp);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   margin: 0;
+   display: flex;
+   min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.clock-container{
+    backdrop-filter: blur(500px);
+    width: 100vw;
+    padding: 10px 0px;
+}
+.clock{
+    color: white;
+    font-size: 7.2rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.692);
+}
